@@ -5,4 +5,3 @@ def create_header(left_drawer: ui.element) -> ui.element:
         ui.button(on_click=left_drawer.toggle, icon='menu').props('flat color=white')
 
     return header
-
